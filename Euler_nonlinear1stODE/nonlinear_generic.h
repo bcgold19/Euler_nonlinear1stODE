@@ -4,6 +4,10 @@
 #include<cmath>
 #include "Euler.h"
 
+// this is a specific feature of Euler of the first order : dy/dx=coefficient1*y^2-coefficient2*x^2
+// you can set and get the coefficients by set and get method.
+// and Step size is optional,so you can choose whatever you want to.
+
 class nonlinear_generic :public Euler {
 	// In this class, I will solve the nonlinear first order inhomogeneous equation
 	// system of equation : dy/dx = (coeff1)*y^2 - coeff(2)*x^2

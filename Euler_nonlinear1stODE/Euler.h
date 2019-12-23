@@ -1,4 +1,10 @@
 #pragma once
+// This is a base class for the Euler methods, as all euler methods ( in case of first order non-linear ode) ,share similar feature
+// Here, independent variable x can be interpreted as time variable and the dependent variable y can be a position with respect to time
+// Or status at time t.
+// For the sake of deriving a new class, which inhereted all properties of base class, I built 'nonlinear_generic.cpp'
+// Note that this is an initial version, so other first order non-linear equations will be uploaded as soon as possible.
+
 class Euler {
 private:
 
